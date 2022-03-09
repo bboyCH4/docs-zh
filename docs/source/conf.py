@@ -19,9 +19,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'CubeFS'
-copyright = u'Copyright 2018 The Cube Authors.'
-author = u'The Cube Authors'
+project = u'ADLS'
+copyright = u'Copyright 2018 The ADLS Authors.'
+author = u'The ADLS Authors'
 
 # The short X.Y version
 version = u''
@@ -102,7 +102,7 @@ html_theme = 'sphinx_rtd_theme'
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'CubeFS Doc'
+htmlhelp_basename = 'ADLS Doc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -131,8 +131,8 @@ latex_elements = {
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'CubeFS', u'CubeFS Documentation',
-     author, 'CubeFS', 'One line description of project.',
+    (master_doc, 'ADLS', u'ADLS Documentation',
+     author, 'ADLS', 'One line description of project.',
      'Miscellaneous'),
 ]
 

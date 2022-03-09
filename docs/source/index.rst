@@ -1,8 +1,9 @@
-欢迎使用CubeFS(储宝文件系统)
+欢迎使用ADLS
 ==================================
 .. toctree::
    :maxdepth: 2
    :caption: 设计文档
+   
    overview
    design/master
    design/metanode
@@ -11,6 +12,3 @@
    design/blobstore
    design/client
    design/authnode
-
-   env
-   faq
