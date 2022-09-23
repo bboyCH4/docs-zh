@@ -239,7 +239,7 @@
    :header: "参数", "类型", "描述"
 
    "batchCount", "uint64", "metanode 删除批量大小"
-   "markDeleteRate", "uint64", "datanode批量删除限速设置. 0代表未做限速设置"
+   "markDeleteRate", "uint64", "datanode批量删除限速设置, 0代表未做限速设置"
    "autoRepairRate", "uint64", "datanode上同时修复的extent个数"
    "deleteWorkerSleepMs", "uint64", "删除间隔时间"
    "loadFactor", "uint64", "集群超卖比，默认0，不限制"
