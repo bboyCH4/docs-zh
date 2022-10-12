@@ -186,13 +186,14 @@
 
 
 创建Volume卷
-^^^^^^^^^^^^^
+------------
 
 .. code-block:: bash
 
    curl -v "http://10.196.59.198:17010/admin/createVol?name=test&capacity=10000&owner=cfs"
 
    如果执行性能测试，请调用相应的API，创建足够多的数据分片（data partition）,如果集群中有8块磁盘，那么需要创建80个datapartition
+卷创建详细参数请参考 :doc:`admin-api/master/volume`.
 
 挂载客户端
 ------------
