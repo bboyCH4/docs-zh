@@ -33,7 +33,6 @@
    user-guide/authnode
    user-guide/monitor
    user-guide/fuse
-   user-guide/yum
    user-guide/docker
    user-guide/csi-driver
    user-guide/blobstore
